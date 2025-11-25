@@ -14,8 +14,24 @@
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
 
-    justify-content: center;
+    padding: 20px;
 }
     body.dark-mode .sobrePrivacidadeDiv {
         background: rgba(55, 55, 72);
     }
+
+h3 {
+    margin: 25px;
+}
+
+p {
+    text-align: start; 
+    padding: 10px;
+    font-style: italic;
+    font-size: large;
+    margin-bottom: 0px;
+}
+
+.pseudoBreak {
+    padding: 10px;
+}

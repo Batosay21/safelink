@@ -43,7 +43,7 @@
   
 </head>
   
-<body>
+<body style="background-repeat: repeat;">
 
   <div id="logoBackgroundDiv">
     <img src="../SafeLinks_Background_Logo.png" id="logoBackgroundImage">
@@ -219,7 +219,7 @@
   <script src="index_php.js"></script>
 
   <script src="../theme.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
  
 
   <script src="resultadosProdutos.js"></script> <!-- Remove type="module" if present -->
