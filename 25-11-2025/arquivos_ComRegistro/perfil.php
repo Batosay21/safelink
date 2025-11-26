@@ -98,7 +98,7 @@ if (!isset($_SESSION['logado']) || $_SESSION['logado'] !== true) {
                     </li>
                 </ul>
             </div>
-        </nav>        
+        </nav>   
         <div class="perfilDados" id="perfilDadosID">
             <!-- <p class="voltarPerfilUlTexto" id="voltarPerfilUlTextoID"></p>
             <div class="voltarPerfilUl" id="voltarPerfilUlID">
@@ -109,8 +109,12 @@ if (!isset($_SESSION['logado']) || $_SESSION['logado'] !== true) {
             <!-- Seção Meus Dados -->
             <div class="section-content" id="section-dados" style="display: none;">
                 <div class="container mt-4">
-                    <h2 class="mb-4" style="text-align: center;"><i class="fa-regular fa-id-card me-2"></i>Meus Dados</h2>
-                    
+                    <h2 class="mb-4" style="text-align: center;"><i class="fa-regular fa-id-card me-2"></i>Meus Dados
+                        <br>
+                        <a href="perfil.php" style="color: inherit; font-size: medium;"> 
+                            Voltar   
+                        </a>
+                    </h2>
                     <div class="card shadow-sm">
                         <div class="card-body">
                             <form id="profileFormPerfil">
@@ -161,7 +165,12 @@ if (!isset($_SESSION['logado']) || $_SESSION['logado'] !== true) {
             <div class="section-content" id="section-favoritos" style="display: none;">
                 <div class="favoritos-container">
                     <div class="favoritos-header">
-                        <h1><i class="fas fa-heart" style="color: red;"></i> Meus Produtos Favoritos</h1>
+                        <h1><i class="fas fa-heart" style="color: red;"></i> Meus Produtos Favoritos
+                            <br>
+                            <a href="perfil.php" style="color: inherit; font-size: medium;"> 
+                                Voltar   
+                            </a>
+                        </h1>
                         <p>Gerencie todos os produtos que você salvou para consultas futuras</p>
                     </div>
                     
@@ -178,7 +187,14 @@ if (!isset($_SESSION['logado']) || $_SESSION['logado'] !== true) {
             <div class="section-content" id="section-historico" style="display: none;">
                 <div class="historico-container">
                     <div class="historico-header">
-                        <h1><i class="fas fa-history"></i> Meu Histórico de Pesquisas</h1>
+                        <a href="perfil.php" style="color: inherit;">
+                            <h1><i class="fas fa-history"></i> Meu Histórico de Pesquisas 
+                                <br>
+                                <a href="perfil.php" style="color: inherit; font-size: medium;">
+                                    Voltar   
+                                </a>
+                            </h1>
+                        </a>
                     </div>
                     <div class="historico-list" id="historicoList">
                         <div class="empty-state">
